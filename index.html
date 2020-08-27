@@ -10,13 +10,13 @@
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
-        <div class="navbar-fixed" >
+        <div class="navbar-fixed" style="z-index: 11;">
             <nav role="navigation" style="background-color: rgba(0,0,0,0);">
                 <div class="nav-wrapper container">
                     <a id="logo-container" href="./" class="brand-logo" style="font-size:20px;">Hackathon_LOGO</a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Sponsers</a></li>
+                        <li><a href="#">Sponsors</a></li>
                         <li><a href="#">Team</a></li>
                         <li><a href="#">FAQs</a></li>
                         <li><a href="#">Contact</a></li>
@@ -25,34 +25,40 @@
                 </div>
             </nav>
         </div>
+        <div class="navbar-fixed black" style="position: fixed; z-index: 9;">
+            <nav role="navigation" style="background-color: black;">
+            </nav>
+        </div>
         <ul id="nav-mobile" class="sidenav">
             <li><a href="#">About</a></li>
-            <li><a href="#">Sponsers</a></li>
+            <li><a href="#">Sponsors</a></li>
             <li><a href="#">Team</a></li>
             <li><a href="#">FAQs</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-        <div style="position: absolute; width: 100%;"> 
-            <div id="inmain" class="parallax-container">
-                <div class="section no-pad-bot valign-wrapper" style="height: 100%;">
-                    <div class="container">
-                        <br><br>
-                        <h1 class="header pink-text text-accent-3" id="maintxt">Hack tHe builD</h1>
-                        <div class="row">
-                            <h5 class="header col s12 light">29th - 30th September</h5>
-                        </div>
-                        <div class="row">
-                        <a href="#" class="btn-large waves-effect waves-light pink accent-4">Apply <i class="material-icons right">send</i></a>
+        <div style="position: absolute; width: 100%;" > 
+            <div style="z-index : 10; position: relative;">
+                <div id="inmain" class="parallax-container">
+                    <div class="section no-pad-bot valign-wrapper" style="height: 100%;">
+                        <div class="container">
+                            <br><br>
+                            <h1 class="header pink-text text-accent-3" id="maintxt">Hack tHe builD</h1>
+                            <div class="row">
+                                <h5 class="header col s12 light">29th - 30th September</h5>
+                            </div>
+                            <div class="row">
+                            <a href="#" class="btn-large waves-effect waves-light pink accent-4">Apply <i class="material-icons right">send</i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="parallax">
-                    <video autoplay muted loop id="myVideo">
-                        <source src="media/mixkit-aerial-view-of-city-traffic-at-night-11.mp4" type="video/mp4">
-                    </video>
+                    <div class="parallax">
+                        <video autoplay muted loop id="myVideo">
+                            <source src="media/mixkit-aerial-view-of-city-traffic-at-night-11.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
             </div>
-            <div class="section" style="height: 100vh; z-index: -1;">
+            <div class="section" style="height: 100vh;">
                 <div class="container">
                     <a class="anchor" id="about"></a>
                     <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
