@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+main {
+  flex: 1 0 auto;
+}
+#maintxt{
+  font-size: 45px;
+}
+.labeltxt{
+  font-size: 20px;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  color: rgba(255,255,255,.9);
+}
+#inmain{
+  content: '';
+  background: transparent url(../media/img/pattern.png) repeat top left;
+  background-color:rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+@media only screen and (max-width : 992px) {
+  
+}
+
+@media only screen and (max-width : 600px) {
+  #maintxt{
+    font-size: 30px;
+  }
+  .labeltxt{
+    font-size: 18px;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
