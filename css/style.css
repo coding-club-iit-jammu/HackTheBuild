@@ -20,6 +20,11 @@ body {
   background-image: url('../media/img/pink\ dust.png');
   background-repeat:repeat;
 }
+.faq-sec{
+  position: fixed;
+  background-image: url('../media/img/random_grey_variations.png');
+  background-repeat:repeat;
+}
 .section-pad{
   padding-top: 0;
 }
@@ -107,6 +112,7 @@ body {
 main {
   flex: 1 0 auto;
 }
+
 #maintxt{
   margin-top : 0;
   font-size: 45px;
@@ -116,7 +122,7 @@ main {
 }
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: wheat;
 }
 a.anchor {
   display: block;
