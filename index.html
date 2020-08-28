@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Hack The Build</title>
         <script src='js/script.js'></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -38,7 +39,7 @@
         </ul>
         <div style="position: absolute; width: 100%;" > 
             <div class="cover" style="z-index: -1;">
-                <div style="width: 100%; height: 100vh; background-color: rgba(248, 139, 212, 0.26);"></div>
+                <div style="width: 100%; height: 100vh; background-color: rgba(60, 0, 199, 0.1);"></div>
             </div>
             <div style="z-index : 10; position: relative;">
                 <div id="inmain" class="parallax-container">
@@ -61,7 +62,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section timer-section no-pad-bot">
+            <div class="section section-pad no-pad-bot">
                 <div class="black" id="slit-right"></div>
                 <div class="container">
                     <a class="anchor" id="about"></a>
@@ -72,11 +73,10 @@
                         </div>
                     </div>
                 </div>   
-                <div class="white" id="slit-right-up"></div>
+                <div style="background-image: url('media/img/sakura.png');" id="slit-left-up"></div>
             </div>
-            <div class="section timer-section white" style="position: relative; display: flex;">
+            <div class="section about-sec" style="position: relative;">
                 <div class="container">
-                    <a class="anchor" id="about"></a>
                     <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
                         <div class="col s12 center">
                             <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -85,7 +85,128 @@
                         </div>
                     </div>
                 </div>
+                <div class="pink" id="slit-tilt" style="display: none;"></div>
+            </div>
+            <div style="background-image: url('media/img/sakura.png');" id="slit-right" style="margin-bottom: 24px;"></div>
+            <div class="section white" style="position: relative; display: none;">
                 
+                <div class="container">
+                    <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+                        <div class="col s12">
+                            <h3>Sponsors</h3>
+                            <a href="#" class="btn-small waves-effect waves-light blue accent-4">Support Us <i class="material-icons right">groups</i></a>
+                        </div>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <div class="col s4 offset-s4 card-image">
+                            <img src="media/img/codingclub.png" width="100%" style="border-radius: 50%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="blue" id="slit-tilt-rev"></div>
+            </div>
+            <div id="slit-left-up" style="background-image: url('media/img/pink\ dust.png');"></div>
+            <div class="section team-sec" style="position: relative;">
+                <div class="container">
+                    <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+                        <div class="col s12 white-text">
+                            <h3>Organising Team</h3><hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s6 m3">
+                            <div class="card z-depth-5" style="overflow: visible; padding: 2px;">
+                                <a href = "https://iamabhishek.co/" target="_blank">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="media/img/team/abhishek.jpg">
+                                    </div>
+                                </a>
+                                <div class="card-content" style="padding: 5px;">
+                                    <span class="card-title activator grey-text text-darken-4">Abhishek</span>
+                                    <p>Lead Organizer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s6 m3">
+                            <div class="card z-depth-5" style="overflow: visible; padding: 2px;">
+                                <a href = "#" target="_blank">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="media/img/team/temp.gif">
+                                    </div>
+                                </a>
+                                <div class="card-content" style="padding: 5px;">
+                                    <span class="card-title activator grey-text text-darken-4">Sachin</span>
+                                    <p>Co Organizer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s6 m3">
+                            <div class="card z-depth-5" style="overflow: visible; padding: 2px;">
+                                <a href = "#" target="_blank">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="media/img/team/temp.gif">
+                                    </div>
+                                </a>
+                                <div class="card-content" style="padding: 5px;">
+                                    <span class="card-title activator grey-text text-darken-4">Shaikh Mamun</span>
+                                    <p>Panelist</p>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="col s6 m3">
+                            <div class="card z-depth-5" style="overflow: visible; padding: 2px;">
+                                <a href = "#" target="_blank">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="media/img/team/temp.gif">
+                                    </div>
+                                </a>
+                                <div class="card-content" style="padding: 5px;">
+                                    <span class="card-title activator grey-text text-darken-4">Akash</span>
+                                    <p>Panelist</p>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col s6 m3">
+                            <div class="card z-depth-5" style="overflow: visible; padding: 2px;">
+                                <a href = "#" target="_blank">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="media/img/team/temp.gif">
+                                    </div>
+                                </a>
+                                <div class="card-content" style="padding: 5px;">
+                                    <span class="card-title activator grey-text text-darken-4">Purnabh</span>
+                                    <p>Content Writer</p>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="col s6 m3">
+                            <div class="card z-depth-5" style="overflow: visible; padding: 2px;">
+                                <a href = "#" target="_blank">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="media/img/team/temp.gif">
+                                    </div>
+                                </a>
+                                <div class="card-content" style="padding: 5px;">
+                                    <span class="card-title activator grey-text text-darken-4">Anirjeeth</span>
+                                    <p>Graphic Desginer</p>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col s6 m3">
+                            <div class="card z-depth-5" style="overflow: visible; padding: 2px;">
+                                <a href = "#" target="_blank">
+                                    <div class="card-image waves-effect waves-block waves-light">
+                                        <img class="activator" src="media/img/team/temp.gif">
+                                    </div>
+                                </a>
+                                <div class="card-content" style="padding: 5px;">
+                                    <span class="card-title activator grey-text text-darken-4">Harsh</span>
+                                    <p>Team</p>
+                                </div>
+                            </div>
+                        </div>           
+                    </div>
+                </div>
             </div>
             <footer class="page-footer grey darken-2">
                 <div class="container">
