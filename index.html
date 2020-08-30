@@ -4,13 +4,27 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Hack The Build</title>
-        <script src='js/script.js'></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
+        <div class="black" id="loader" style="height: 100vh; width: 100%; position: fixed; z-index:100">
+            <div class="valign-wrapper" style="height: 100vh; width: 100%; position: fixed;">
+                <div class="load" style="height: 100px; width: 100px; margin: 0 auto; "></div>
+            </div>
+            <div class="valign-wrapper" style="height: 100vh; width: 100%; position: fixed;">
+                <div class="load2" style="height: 90px; width: 90px; margin: 0 auto; "></div>
+            </div>
+            <div class="valign-wrapper" style="height: 100vh; width: 100%; position: fixed;">
+                <div class="load3" style="height: 80px; width: 80px; margin: 0 auto; "></div>
+            </div>
+            <div class="valign-wrapper" style="height: 100vh; width: 100%; position: fixed;">
+                <div class="load4" style="height: 70px; width: 70px; margin: 0 auto; "></div>
+            </div>
+            
+        </div>
         <div class="navbar-fixed" style="z-index: 11;">
             <nav role="navigation" style="background-color: rgba(0,0,0,0.2);">
                 <div class="nav-wrapper container">
@@ -59,7 +73,7 @@
                                     <h5><img src="media/img/cc.png" width="25px" style="border-radius: 50%;"> Coding Club IIT Jammu presents</h5>
                                     <h1 class="header pink-text text-accent-3" id="maintxt">Hack tHe builD</h1>
                                     <div class="row no-pad-bot" style="margin-bottom: 10px;">
-                                        <h5 class="header col s12 light">29th - 30th September</h5>
+                                        <h5 class="header col s12 light">4th - 5th September</h5>
                                     </div>
                                     <div class="row">
                                     <h5 class="col s12">
@@ -97,7 +111,9 @@
                             <h3><i class="mdi-content-send brown-text"></i></h3>
                             <h4 style="padding-bottom:10px;">About the Event</h4>
                             <hr width="60%" align="left">
-                            <p class="light" style="font-size: 20px; text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p class="light" style="font-size: 20px; text-align: justify;">Hack tHe builD is Coding Club IIT Jammu's annual hackathon for students by students. As of COVID-19, it will be a virtual hackathon. Build your hack and stand a chance to win prizes worth 28K and certificates from home.
+                                <br><br>
+                                Join and show the world what you are made up of!</p>
                             <hr width="60%" align="right">
                         </div>
                     </div>
@@ -136,7 +152,7 @@
                     <div class="row">
                         <div class="col s6 m3">
                             <div class="card z-depth-5" style="overflow: visible; padding: 2px;">
-                                <a href = "https://iamabhishek.co/" target="_blank">
+                                <a href = "https://www.instagram.com/abhii.0220/" target="_blank">
                                     <div class="card-image waves-effect waves-block waves-light">
                                         <img class="activator" src="media/img/team/abhishek.jpg">
                                     </div>
@@ -201,9 +217,9 @@
                         </div>  
                         <div class="col s6 m3">
                             <div class="card z-depth-5" style="overflow: visible; padding: 2px;">
-                                <a href = "#" target="_blank">
+                                <a href = "https://www.instagram.com/violet_phoenix______/" target="_blank">
                                     <div class="card-image waves-effect waves-block waves-light">
-                                        <img class="activator" src="media/img/team/violet.jpg">
+                                        <img class="activator" src="media/img/team/anirjeeth.jpeg">
                                     </div>
                                 </a>
                                 <div class="card-content" style="padding: 5px;">
@@ -274,6 +290,39 @@
                             </h6>
                         </div>
                     </div>
+                    <hr>
+                    <div class="row white-text">
+                        <div class="col s12 l5">
+                            <h5><i class="fa fa-question-circle-o"></i> Can I participate Individually ?</h5> 
+                        </div>
+                        <div class="col s12 l7">
+                            <h6 style="text-align: justify;">
+                                No you should be in a team of Minimum 2 and maximum 3. 
+                            </h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row white-text">
+                        <div class="col s12 l5">
+                            <h5><i class="fa fa-question-circle-o"></i> How to submit hacks?</h5> 
+                        </div>
+                        <div class="col s12 l7">
+                            <h6 style="text-align: justify;">
+                                To be updated soon. 
+                            </h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row white-text">
+                        <div class="col s12 l5">
+                            <h5><i class="fa fa-question-circle-o"></i> Can i start working now?</h5> 
+                        </div>
+                        <div class="col s12 l7">
+                            <h6 style="text-align: justify;">
+                                You can research of ideas but the commits should in between hackathon time. Any commit before or after the hackathon can lead to disquallification. 
+                            </h6>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div style="background-image: url('media/img/random_grey_variations.png'); margin-bottom: 50px;" id="slit-right"></div>
@@ -309,5 +358,6 @@
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
+        <script src='js/script.js'></script>
     </body>
 </html>

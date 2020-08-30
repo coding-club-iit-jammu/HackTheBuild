@@ -6,7 +6,7 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
-var countDownDate = new Date("Sep 25, 2020 15:37:25").getTime();
+var countDownDate = new Date("Oct 4, 2020 11:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
