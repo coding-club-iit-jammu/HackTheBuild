@@ -3,6 +3,41 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
+.A {
+  animation: animA 2s infinite alternate;
+  }
+  
+  .B {
+  animation: animB 2s infinite alternate;
+  }
+@keyframes animA {
+  0%, 25% {
+    opacity: 0;
+    z-index: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  
+  100% {
+    opacity: 1;
+    z-index: 1
+  }
+}
+
+@keyframes animB {
+  0%,25% {
+    opacity: 1;
+    z-index: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+ 100% {
+    opacity: 0;
+    z-index: 0
+  }
+}
 .cover{
   height: 100vh;
   width: 100%;
