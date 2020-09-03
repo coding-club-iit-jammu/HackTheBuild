@@ -7,7 +7,7 @@ body {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
-  background-color: #3770FF;
+  background-color: #ff377a;
   border-radius: 3px;
   border: none;
   color: #FFFFFF;
@@ -28,7 +28,7 @@ body {
 }
 
 #devfolio-apply-now:hover {
-  background-color: #2954BF !important;
+  background-color: #fd1d68 !important;
 }
 
 
