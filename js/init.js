@@ -5,6 +5,26 @@
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+document.addEventListener('DOMContentLoaded', function () {
+  let devfolioOptions = {
+      buttonSelector: '#devfolio-apply-now',
+      key: 'hackthebuild',
+  }
+
+  let script = document.createElement('script');
+  script.src = "https://apply.devfolio.co";
+  document.head.append(script);
+
+  script.onload = function () {
+      new Devfolio(devfolioOptions);
+  }
+
+  script.onerror = function () {
+      document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+          window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+      });
+  }
+});
 
 var countDownDate = new Date("Oct 3, 2020 11:00:00").getTime();
 
