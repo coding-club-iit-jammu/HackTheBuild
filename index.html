@@ -54,11 +54,18 @@
                     <a href="#" data-target="nav-mobile" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
                 </div>
             </nav>
+            <div class="pink accent-3 center" style="height: 30px; width: 100%; top:64px; position: fixed;">
+                <h7>Registration Ending on 2nd October 11:59PM (IST)</h7>
+                <span class="right closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            </div>
         </div>
+        
         <div class="navbar-fixed black" style="position: fixed; z-index: 9;">
             <nav role="navigation" style="background-color: black;">
             </nav>
+            
         </div>
+        
         <ul id="nav-mobile" class="sidenav" style="background-color: rgba(0,0,0,0);">
             <div style="width: 100%; height: 100%; position : absolute; z-index: -1;background-color: rgba(0,0,0,0.8); filter: blur(5px);"></div>
             <li><a style="color: wheat;" href="#abouthack"><h5>About</h5></a></li>
@@ -68,7 +75,7 @@
             <li><a style="color: wheat;" href="#contactus"><h5>Contact</h5></a></li>
         </ul>
         
-        <div class="cui-embed" style="padding:20px; z-index: 20;"  data-cui-uid="rnqV10" data-cui-avatar="https://images.typeform.com/images/6ejkEn7A9pdX" data-cui-mode="pill" data-cui-pill-button-color="#631B1B"></div><script src="https://public-assets.typeform.com/confab/embed.js" async></script>
+        <div class="cui-embed" style="padding:20px; z-index: 20;display: none;"  data-cui-uid="rnqV10" data-cui-avatar="https://images.typeform.com/images/6ejkEn7A9pdX" data-cui-mode="pill" data-cui-pill-button-color="#631B1B"></div><script src="https://public-assets.typeform.com/confab/embed.js" async></script>
         <div style="position: absolute; width: 100%;" > 
             <div class="cover" style="z-index: -1;">
                 <div style="width: 100%; height: 100vh; background-color: rgba(60, 0, 199, 0.1);"></div>
@@ -184,16 +191,15 @@
                             <ul style="list-style-type:square">
                                 <h6><li>$50 Amazon gift card (Winners )</li></h6>
                                 <h6><li>A feature in echoAR newsletter(Winners)</li></h6>
-                                <h6><li>1-month free Business Tier access(All Teams)</li></h6>
                                 *Winners <b>MUST</b> use the echoAR platform as part of their project to be eligible for a reward
                             </ul>
                         </div>
                         <div class="col s6">
                             <h5>Coding Blocks</h5>
                             <ul style="list-style-type:disc">
-                                <h6><li>1st - 90% off on all courses</li></h6>
-                                <h6><li>2nd - 80% off on all courses</li></h6>
-                                <h6><li>3rd - 70% off on all courses</li></h6>
+                                <h6><li>1st - 90% off on any courses</li></h6>
+                                <h6><li>2nd - 80% off on any courses</li></h6>
+                                <h6><li>3rd - 70% off on any courses</li></h6>
                             </ul>
                         </div>
                         
@@ -203,12 +209,10 @@
                             <h5>All Participants</h5>
                             <ul style="list-style-type:disc">
                                 <h6><li>Certificates for all Participants (on successful submission).</li></h6>
+                                <h6><li>1-month free echoAR Business Tier access(All Teams)</li></h6>                            
                             </ul>
                         </div>
                     </div>
-                    
-                    
-                    
                 </div>
                 <div class="pink" id="slit-tilt" style="display: none;"></div>
             </div>
@@ -275,6 +279,104 @@
             </div>
             <div id="slit-right" style="background-color: wheat; margin-bottom: 50px;"></div>
 
+            
+            <div id="slit-left-up" style="background-image: url('media/img/random_grey_variations.png');"></div>
+            <div class="section faq-sec" style="position: relative;" id="faqs">
+                <div class="container">
+                    <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+                        <div class="col s12 white-text">
+                            <h3>Frequently Asked Questions</h3><hr>
+                        </div>
+                    </div>
+                    <div class="row white-text">
+                        <div class="col m12 l5">
+                            <h5><i class="fa fa-question-circle-o"></i>How much does it cost?</h5> 
+                        </div>
+                        <div class="col m12 l7">
+                            <h6 style="text-align: justify;">Hack the build is absolutely free of cost, so what are you waiting for? Register Now</h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row white-text">
+                        <div class="col s12 l5">
+                            <h5><i class="fa fa-question-circle-o"></i>What are the Problem Statements?</h5> 
+                        </div>
+                        <div class="col s12 l7">
+                            <h6 style="text-align: justify;">
+                                This time we are not providing any particular problem statement, you are free to create anything based on the themes provided<br>
+                                <br>
+                                Themes : 
+                                <ol>
+                                    <li>Remote Working</li>
+                                    <li>Healthcare</li>
+                                    <li>Blockchain</li>
+                                    <li>Open Innovation</li>
+                                </ol>
+                            </h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row white-text">
+                        <div class="col s12 l5">
+                            <h5><i class="fa fa-question-circle-o"></i>Who can participate?</h5> 
+                        </div>
+                        <div class="col s12 l7">
+                            <h6 style="text-align: justify;">
+                                The hackathon is restricted to students only. All the hackers participating must be  students.
+                            </h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row white-text">
+                        <div class="col s12 l5">
+                            <h5><i class="fa fa-question-circle-o"></i> Can I participate Individually ?</h5> 
+                        </div>
+                        <div class="col s12 l7">
+                            <h6 style="text-align: justify;">
+                                No, you are required to have atleast 2 and at most 3 members in your team. 
+                            </h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row white-text">
+                        <div class="col s12 l5">
+                            <h5><i class="fa fa-question-circle-o"></i> How to submit hacks?</h5> 
+                        </div>
+                        <div class="col s12 l7">
+                            <h6 style="text-align: justify;">
+                                Check Submission rules <a href="./media/Submission_hackTheBuild.pdf">here</a>. 
+                            </h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row white-text">
+                        <div class="col s12 l5">
+                            <h5><i class="fa fa-question-circle-o"></i> Can i start working now?</h5> 
+                        </div>
+                        <div class="col s12 l7">
+                            <h6 style="text-align: justify;">
+                                You can research about the ideas but the commits should in between hackathon time. Any commit before or after the hackathon can lead to disqualification.  
+                            </h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row white-text">
+                        <div class="col s12 l5">
+                            <h5><i class="fa fa-question-circle-o"></i> Code of Conduct?</h5> 
+                        </div>
+                        <div class="col s12 l7">
+                            <h6 style="text-align: justify;">
+                                Code of conduct can be found <a href="https://devfolio.co/code-of-conduct">here</a>  
+                            </h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <h5 class="white-text" style="margin-top:20px;">Register your team now at <a href="https://hackthebuild.devfolio.co/" target="_blank">Devfolio</a>.</h5>
+                    
+                </div>
+            </div>
+            <div style="background-image: url('media/img/random_grey_variations.png'); margin-bottom: 50px;" id="slit-right"></div>
+            
             <div id="slit-left-up" style="background-image: url('media/img/pink\ dust.png');"></div>
             <div class="section team-sec" style="position: relative;" id="teams">
                 <div class="container">
@@ -381,103 +483,6 @@
             </div>
             <div style="background-image: url('media/img/pink\ dust.png'); margin-bottom: 50px;" id="slit-right"></div>
 
-            <div id="slit-left-up" style="background-image: url('media/img/random_grey_variations.png');"></div>
-            <div class="section faq-sec" style="position: relative;" id="faqs">
-                <div class="container">
-                    <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
-                        <div class="col s12 white-text">
-                            <h3>Frequently Asked Questions</h3><hr>
-                        </div>
-                    </div>
-                    <div class="row white-text">
-                        <div class="col m12 l5">
-                            <h5><i class="fa fa-question-circle-o"></i>How much does it cost?</h5> 
-                        </div>
-                        <div class="col m12 l7">
-                            <h6 style="text-align: justify;">Hack the build is absolutely free of cost, so what are you waiting for? Register Now</h6>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row white-text">
-                        <div class="col s12 l5">
-                            <h5><i class="fa fa-question-circle-o"></i>What are the Problem Statements?</h5> 
-                        </div>
-                        <div class="col s12 l7">
-                            <h6 style="text-align: justify;">
-                                This time we are not providing any particular problem statement, you are free to create anything based on the themes provided<br>
-                                <br>
-                                Themes : 
-                                <ol>
-                                    <li>Remote Working</li>
-                                    <li>Healthcare</li>
-                                    <li>Blockchain</li>
-                                    <li>Open Innovation</li>
-                                </ol>
-                            </h6>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row white-text">
-                        <div class="col s12 l5">
-                            <h5><i class="fa fa-question-circle-o"></i>Who can participate?</h5> 
-                        </div>
-                        <div class="col s12 l7">
-                            <h6 style="text-align: justify;">
-                                The hackathon is restricted to students only. All the hackers participating must be  students.
-                            </h6>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row white-text">
-                        <div class="col s12 l5">
-                            <h5><i class="fa fa-question-circle-o"></i> Can I participate Individually ?</h5> 
-                        </div>
-                        <div class="col s12 l7">
-                            <h6 style="text-align: justify;">
-                                No, you are required to have atleast 2 and at most 3 members in your team. 
-                            </h6>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row white-text">
-                        <div class="col s12 l5">
-                            <h5><i class="fa fa-question-circle-o"></i> How to submit hacks?</h5> 
-                        </div>
-                        <div class="col s12 l7">
-                            <h6 style="text-align: justify;">
-                                To be updated soon. 
-                            </h6>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row white-text">
-                        <div class="col s12 l5">
-                            <h5><i class="fa fa-question-circle-o"></i> Can i start working now?</h5> 
-                        </div>
-                        <div class="col s12 l7">
-                            <h6 style="text-align: justify;">
-                                You can research about the ideas but the commits should in between hackathon time. Any commit before or after the hackathon can lead to disqualification.  
-                            </h6>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row white-text">
-                        <div class="col s12 l5">
-                            <h5><i class="fa fa-question-circle-o"></i> Code of Conduct?</h5> 
-                        </div>
-                        <div class="col s12 l7">
-                            <h6 style="text-align: justify;">
-                                Code of conduct can be found <a href="https://devfolio.co/code-of-conduct">here</a>  
-                            </h6>
-                        </div>
-                    </div>
-                    <hr>
-                    <h5 class="white-text" style="margin-top:20px;">Register your team now at <a href="https://hackthebuild.devfolio.co/" target="_blank">Devfolio</a>.</h5>
-                    
-                </div>
-            </div>
-            <div style="background-image: url('media/img/random_grey_variations.png'); margin-bottom: 50px;" id="slit-right"></div>
-            
             <div class="section section-pad no-pad-bot" id="contactus">
                 <div class="container">
                     <a class="anchor" id="about"></a>
