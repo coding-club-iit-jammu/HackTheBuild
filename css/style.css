@@ -48,7 +48,7 @@ body {
 .A {
   animation: animA 2s infinite alternate;
   }
-  
+
   .B {
   animation: animB 2s infinite alternate;
   }
@@ -60,7 +60,7 @@ body {
   50% {
     opacity: .5;
   }
-  
+
   100% {
     opacity: 1;
     z-index: 1
@@ -199,7 +199,7 @@ main {
   border-top: 2px solid #3498db;
   -webkit-animation: spin 1s linear infinite; /* Safari */
   animation: spin 1s linear infinite;
-  
+
 }
 .load2{
   border: 2px;
@@ -277,7 +277,7 @@ p {
   height: 100vh;
 }
 @media only screen and (max-width : 992px) {
-  
+
 }
 
 @media only screen and (max-width : 600px) {
