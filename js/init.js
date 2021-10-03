@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-var countDownDate = new Date("Oct 03, 2021 00:00:00").getTime();
+var countDownDate = new Date("Oct 04, 2021 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -52,3 +52,4 @@ var x = setInterval(function() {
     document.getElementById("timer").innerHTML = "Register Now";
   }
 }, 1000);
+
